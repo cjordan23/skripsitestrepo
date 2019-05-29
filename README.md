@@ -1,6 +1,7 @@
 # skripsitestrepo
 This is my simple test environtment for my thesis prototype website.
 The website itself build with Laravel Framework
+Laravel version used in this repo is Laravel Version 5.7.21.
 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
