@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        
         <title>Laravel</title>
 
         <!-- Fonts -->
@@ -81,7 +82,9 @@
             @endif
 
             <div class="content">
-                <a href="/test" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Link</a>
+                <div class="h2">
+                    Selamat datang, website ini dibuat menggunakan
+                </div>
                 <div class="title m-b-md">
                     Laravel
                 </div>
@@ -94,8 +97,10 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
+                <a href="/home" class="btn btn-secondary btn-block btn-lg active" role="button" aria-pressed="true">Masuk ke Laman Utama</a>
+               
             </div>
-            
+
         </div>
         @include('includes.scripts')
     </body>

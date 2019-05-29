@@ -13,6 +13,7 @@ function initMap() {
     // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
     script.src = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojsonp';
     document.getElementsByTagName('head')[0].appendChild(script);
+    
     //Buat setiap titik dalam bentuk Lingkaran berdasarkan Magnitudo
     map.data.setStyle(function(feature) {
         var magnitude = feature.getProperty('mag');

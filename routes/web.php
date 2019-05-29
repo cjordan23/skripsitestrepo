@@ -15,6 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-//
-Route::get('/test', 'PagesController@test');
-Route::get('/kml', 'PagesController@kml');
+//Page Routing
+Route::get('/home', 'PagesController@homePage');
+Route::get('/kmlmap', 'PagesController@kmlPage');
+Route::get('/daymap', 'PagesController@pastDayPage');
+Route::get('/weekmap','PagesController@pastWeekPage');
+Route::get('/monthmap','PagesController@pastMonthPage');
+Route::get('/infopenting', 'PagesController@infoPage');
+Route::get('/about','PagesController@aboutPage');
