@@ -72,3 +72,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Data Source 
+
+Data used in this website is from Real-Time Feed created by USGS.
+For more information click link below.
+https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
