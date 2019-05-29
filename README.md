@@ -1,6 +1,8 @@
 # skripsitestrepo
 This is my simple test environtment for my thesis prototype website.
-The website itself build with Laravel Framework
+The website itself build with Laravel Framework.
+Current Laravel framework used in this repos is version 5.7.21
+________________________________________________________________________________________________________________________________________
 
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
@@ -72,3 +74,6 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Data Source
+
