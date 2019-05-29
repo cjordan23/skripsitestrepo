@@ -1,7 +1,8 @@
 # skripsitestrepo
 This is my simple test environtment for my thesis prototype website.
 The website itself build with Laravel Framework.
-Current Laravel framework used in this repos is version 5.7.21
+Current Laravel framework used in this repos is version 5.7.21.
+Please check below for the newest stable version of Laravel Framework 
 ________________________________________________________________________________________________________________________________________
 
 
